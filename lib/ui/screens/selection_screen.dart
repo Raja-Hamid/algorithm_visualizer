@@ -38,9 +38,9 @@ class SelectionScreen extends StatelessWidget {
             margin: EdgeInsets.symmetric(horizontal: 24.w),
             decoration: BoxDecoration(
               color: Colors.white.withValues(alpha: 0.05),
-              borderRadius: BorderRadius.circular(24.r),
+              borderRadius: BorderRadius.circular(20.r),
               border: Border.all(
-                  color: Colors.white.withValues(alpha: 0.1), width: 1),
+                  color: Colors.white.withValues(alpha: 0.1), width: 1.w),
               boxShadow: [
                 BoxShadow(
                   color: Colors.black.withValues(alpha: 0.3),
